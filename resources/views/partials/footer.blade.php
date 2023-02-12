@@ -33,9 +33,6 @@
     <div class="footer-bottom bg-black">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-5">
-                    <p class="p-3 m-0">Copyright 2022-2023 Donato Montrone</p>
-                </div>
             </div>
         </div>
     </div>
