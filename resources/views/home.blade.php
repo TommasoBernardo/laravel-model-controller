@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row g-3">
                 @foreach ($movies as $movie)
-                    <div class="col-4">
+                    <div class="col-3">
                         <div class="card h-100">
                             <img src="{{ Vite::asset('resources/assets/img/copertina-non-disponibile.jpg') }}"
                                 class="img-fluid" alt="{{ $movie->title }}">
