@@ -4,10 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@yield('title', 'Movies')</title>
-    <link rel="icon" type="image/x-icon" href="{{ Vite::asset('resources/assets/img/ciak.png') }}">
-    <!-- Fonts -->
-    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>@yield('title', 'movies')</title>
     <!-- Styles -->
     @vite('resources/js/app.js')
     <!-- Font Awesome -->

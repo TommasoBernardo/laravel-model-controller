@@ -7,8 +7,7 @@
                 @foreach ($movies as $movie)
                     <div class="col-4">
                         <div class="card h-100">
-                            <img src="{{ Vite::asset('resources/assets/img/cover.jpg') }}" class="img-fluid"
-                                alt="{{ $movie->title }}">
+                            alt="{{ $movie->title }}">
                             <div class="card-content px-2 py-4">
                                 <h5 class="card-title text-wrap overflow-wrap">
                                     {{ $movie->title }}
